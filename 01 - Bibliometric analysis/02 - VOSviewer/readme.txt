@@ -1,0 +1,1 @@
+For further details or in case of doubts, please refer to VOSviewer official page: https://www.vosviewer.com/getting-started

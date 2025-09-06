@@ -1,0 +1,15 @@
+install.packages("bibliometrix")
+
+library(bibliometrix)
+
+S <- convert2df("C:/Users/User/Desktop/scopus.csv", dbsource = "scopus", format = "csv")
+
+write.table(S, "C:/Users/User/Desktop/dataset_bibliometrix_file.csv", sep=";", row.names = FALSE)
+
+R <- biblioAnalysis(S)
+
+DS <- summary(object = R, k=20)
+
+plot(R, k=20)	
+
+biblioshiny()

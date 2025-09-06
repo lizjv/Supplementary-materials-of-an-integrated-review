@@ -1,0 +1,1 @@
+For further details or in case of doubts regarding bibliometric analysis, please refer to Bibliometrix official page: https://www.bibliometrix.org/home/
